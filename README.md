@@ -3,7 +3,8 @@ Tiny Performance benchmark for [NSRegularExpression](https://developer.apple.com
 
 ## Testcase
 - A large files [UTF8 File](https://github.com/NghiaTranUIT/NSRegularExpression-vs-RE2/blob/master/WebView/howto.txt) (~40Mb)
-- Run 5 times on Release Mode and get the average result
+- Run on Release Mode
+- MacbookPro 15" 2018 - 2.6 GHz 6-Core Intel Core i7
 
 ```swift
         let tests = [TestCase(name: "URI", regex: "([a-zA-Z][a-zA-Z0-9]*)://([^ /]+)(/[^ ]*)?"),
