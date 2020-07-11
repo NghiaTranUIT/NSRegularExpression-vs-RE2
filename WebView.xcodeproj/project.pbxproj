@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAB350A124B97B1500567932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB350A024B97B1500567932 /* AppDelegate.swift */; };
+		BAB350A324B97B1500567932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB350A224B97B1500567932 /* ViewController.swift */; };
+		BAB350A524B97B1700567932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB350A424B97B1700567932 /* Assets.xcassets */; };
+		BAB350A824B97B1700567932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB350A624B97B1700567932 /* Main.storyboard */; };
+		BAB350B124B97B4500567932 /* page.html in Resources */ = {isa = PBXBuildFile; fileRef = BAB350B024B97B4500567932 /* page.html */; };
+		BAB350B424B97CD000567932 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB350B324B97CD000567932 /* WebKit.framework */; };
+		BAB4922F24B99C0C0014F78E /* re2 in Resources */ = {isa = PBXBuildFile; fileRef = BAB4922E24B99C0C0014F78E /* re2 */; };
+		BAB4923124B99C300014F78E /* libre2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB4923024B99C300014F78E /* libre2.a */; };
+		BAB4923724B99CA70014F78E /* RegexUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = BAB4923624B99CA70014F78E /* RegexUtils.mm */; };
+		BAB4923924B99F040014F78E /* howto.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAB4923824B99F040014F78E /* howto.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAB3509D24B97B1500567932 /* WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB350A024B97B1500567932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAB350A224B97B1500567932 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAB350A424B97B1700567932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAB350A724B97B1700567932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAB350A924B97B1700567932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB350AA24B97B1700567932 /* WebView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebView.entitlements; sourceTree = "<group>"; };
+		BAB350B024B97B4500567932 /* page.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = page.html; sourceTree = "<group>"; };
+		BAB350B324B97CD000567932 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BAB4922E24B99C0C0014F78E /* re2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = re2; sourceTree = "<group>"; };
+		BAB4923024B99C300014F78E /* libre2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libre2.a; sourceTree = "<group>"; };
+		BAB4923424B99CA60014F78E /* WebView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebView-Bridging-Header.h"; sourceTree = "<group>"; };
+		BAB4923524B99CA70014F78E /* RegexUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegexUtils.h; sourceTree = "<group>"; };
+		BAB4923624B99CA70014F78E /* RegexUtils.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RegexUtils.mm; sourceTree = "<group>"; };
+		BAB4923824B99F040014F78E /* howto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = howto.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB3509A24B97B1500567932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB350B424B97CD000567932 /* WebKit.framework in Frameworks */,
+				BAB4923124B99C300014F78E /* libre2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAB3509424B97B1500567932 = {
+			isa = PBXGroup;
+			children = (
+				BAB3509F24B97B1500567932 /* WebView */,
+				BAB3509E24B97B1500567932 /* Products */,
+				BAB350B224B97CD000567932 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB3509E24B97B1500567932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB3509D24B97B1500567932 /* WebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB3509F24B97B1500567932 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4922C24B99BF70014F78E /* re2 */,
+				BAB350B024B97B4500567932 /* page.html */,
+				BAB4923824B99F040014F78E /* howto.txt */,
+				BAB350A024B97B1500567932 /* AppDelegate.swift */,
+				BAB350A224B97B1500567932 /* ViewController.swift */,
+				BAB350A424B97B1700567932 /* Assets.xcassets */,
+				BAB350A624B97B1700567932 /* Main.storyboard */,
+				BAB350A924B97B1700567932 /* Info.plist */,
+				BAB350AA24B97B1700567932 /* WebView.entitlements */,
+				BAB4923524B99CA70014F78E /* RegexUtils.h */,
+				BAB4923624B99CA70014F78E /* RegexUtils.mm */,
+				BAB4923424B99CA60014F78E /* WebView-Bridging-Header.h */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		BAB350B224B97CD000567932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAB350B324B97CD000567932 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAB4922C24B99BF70014F78E /* re2 */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4923024B99C300014F78E /* libre2.a */,
+				BAB4922D24B99BFC0014F78E /* include */,
+			);
+			path = re2;
+			sourceTree = "<group>";
+		};
+		BAB4922D24B99BFC0014F78E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4922E24B99C0C0014F78E /* re2 */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAB3509C24B97B1500567932 /* WebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB350AD24B97B1700567932 /* Build configuration list for PBXNativeTarget "WebView" */;
+			buildPhases = (
+				BAB3509924B97B1500567932 /* Sources */,
+				BAB3509A24B97B1500567932 /* Frameworks */,
+				BAB3509B24B97B1500567932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebView;
+			productName = WebView;
+			productReference = BAB3509D24B97B1500567932 /* WebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB3509524B97B1500567932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Nghia Tran";
+				TargetAttributes = {
+					BAB3509C24B97B1500567932 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = BAB3509824B97B1500567932 /* Build configuration list for PBXProject "WebView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAB3509424B97B1500567932;
+			productRefGroup = BAB3509E24B97B1500567932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAB3509C24B97B1500567932 /* WebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAB3509B24B97B1500567932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB4922F24B99C0C0014F78E /* re2 in Resources */,
+				BAB350A524B97B1700567932 /* Assets.xcassets in Resources */,
+				BAB350B124B97B4500567932 /* page.html in Resources */,
+				BAB4923924B99F040014F78E /* howto.txt in Resources */,
+				BAB350A824B97B1700567932 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAB3509924B97B1500567932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB350A324B97B1500567932 /* ViewController.swift in Sources */,
+				BAB4923724B99CA70014F78E /* RegexUtils.mm in Sources */,
+				BAB350A124B97B1500567932 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAB350A624B97B1700567932 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB350A724B97B1700567932 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAB350AB24B97B1700567932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAB350AC24B97B1700567932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BAB350AE24B97B1700567932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WebView/WebView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/WebView/re2/include\"";
+				INFOPLIST_FILE = WebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebView/re2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsproxy.WebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WebView/WebView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BAB350AF24B97B1700567932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WebView/WebView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/WebView/re2/include\"";
+				INFOPLIST_FILE = WebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebView/re2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsproxy.WebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WebView/WebView-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAB3509824B97B1500567932 /* Build configuration list for PBXProject "WebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB350AB24B97B1700567932 /* Debug */,
+				BAB350AC24B97B1700567932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB350AD24B97B1700567932 /* Build configuration list for PBXNativeTarget "WebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB350AE24B97B1700567932 /* Debug */,
+				BAB350AF24B97B1700567932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAB3509524B97B1500567932 /* Project object */;
+}
